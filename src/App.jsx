@@ -1,35 +1,73 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import {
+  IonButton,
+  IonCard,
+  IonCardContent,
+  IonCardHeader,
+  IonCol,
+  IonContent,
+  IonGrid,
+  IonIcon,
+  IonImg,
+  IonPage,
+  IonRow,
+  IonThumbnail,
+} from "@ionic/react";
+import { logoGithub, logoLinkedin, logoTwitter } from "ionicons/icons";
+import portfolioPhoto from "./assets/images/photo.jpeg";
+import "./App.css";
+import HeaderComponent from "./components/Header/Header.component";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+    <IonPage>
+      <IonContent color="light" class="ion-padding">
+        <IonCard className="content">
+          <HeaderComponent />
+          <IonCardContent>
+            <IonGrid>
+              <IonRow>
+                <IonCol id="social-buttons">
+                  <IonButton
+                    color="dark"
+                    fill="clear"
+                    href="https://www.linkedin.com/in/joshua-cavell-796964164/"
+                    target="_blank"
+                  >
+                    <IonIcon icon={logoLinkedin} slot="icon-only" />
+                  </IonButton>
+                  <IonButton
+                    color="dark"
+                    fill="clear"
+                    href="https://github.com/xclusive36/"
+                    target="_blank"
+                  >
+                    <IonIcon icon={logoGithub} slot="icon-only" />
+                  </IonButton>
+                  <IonButton
+                    color="dark"
+                    fill="clear"
+                    href="https://twitter.com/xclusive36"
+                    target="_blank"
+                  >
+                    <IonIcon icon={logoTwitter} slot="icon-only" />
+                  </IonButton>
+                </IonCol>
+                <IonCol className="main">
+                  <IonCard>
+                    <IonCardHeader>
+                      <IonThumbnail>
+                        <IonImg src={portfolioPhoto}></IonImg>
+                      </IonThumbnail>
+                    </IonCardHeader>
+                  </IonCard>
+                </IonCol>
+              </IonRow>
+            </IonGrid>
+          </IonCardContent>
+        </IonCard>
+      </IonContent>
+    </IonPage>
+  );
 }
 
-export default App
+export default App;
