@@ -70,7 +70,13 @@ const Portfolio = () => {
         <IonGrid>
           <IonRow>
             {projects.map((project, index) => (
-              <IonCol size={index === 0 ? "12" : "4"} key={index}>
+              <IonCol
+                size-xs="12"
+                size-sm="12"
+                size-md={index === 0 ? "12" : "6"}
+                size-lg={index === 0 ? "12" : "4"}
+                key={index}
+              >
                 <IonCard className="card-container">
                   <IonCardHeader>
                     <a href={project.link} target="blank">
