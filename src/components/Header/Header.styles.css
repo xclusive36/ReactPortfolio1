@@ -2,3 +2,26 @@
   margin-top: 1rem;
   margin-left: 1rem;
 }
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.hamburger {
+  display: none;
+}
+
+.header-buttons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.header-button {
+  font-size: 0.7rem;
+}

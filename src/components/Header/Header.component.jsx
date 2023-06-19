@@ -11,11 +11,9 @@ import "./Header.styles.css";
 
 const Header = () => {
   const [selectedButton, setSelectedButton] = useState("about-me");
-  const primaryButton = "color='primary'";
-  const darkButton = "fill='clear' color='dark'";
 
   return (
-    <IonCardHeader className="header">
+    <IonCardHeader color="light" className="header">
       <IonCardTitle className="name">Joshua Cavell</IonCardTitle>
       <div className="header-buttons">
         <IonButton
