@@ -47,3 +47,19 @@ ion-thumbnail {
 .large-image {
   height: 120%;
 }
+
+.skills {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 1rem;
+}
+
+.skill {
+  font-size: 2rem;
+}
+
+#my-resume ion-card {
+  margin-bottom: 2rem;
+}
