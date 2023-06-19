@@ -63,3 +63,7 @@ ion-thumbnail {
 #my-resume ion-card {
   margin-bottom: 2rem;
 }
+
+.footer {
+  text-align: center;
+}
