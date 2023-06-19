@@ -42,28 +42,52 @@ const Resume = () => {
             applications
           </IonCardSubtitle>
           <div className="skills">
-            <IonButton fill="clear">
+            <IonButton
+              href="https://ionicframework.com/"
+              target="blank"
+              fill="clear"
+            >
               <IonIcon className="skill" icon={logoIonic} />
             </IonButton>
-            <IonButton fill="clear">
+            <IonButton
+              href="https://developer.mozilla.org/en-US/docs/Web/HTML"
+              target="blank"
+              fill="clear"
+            >
               <IonIcon className="skill" icon={logoHtml5} />
             </IonButton>
-            <IonButton fill="clear">
+            <IonButton
+              href="https://developer.mozilla.org/en-US/docs/Web/CSS"
+              target="blank"
+              fill="clear"
+            >
               <IonIcon className="skill" icon={logoCss3} />
             </IonButton>
-            <IonButton fill="clear">
+            <IonButton
+              href="https://sass-lang.com/"
+              target="blank"
+              fill="clear"
+            >
               <IonIcon className="skill" icon={logoSass} />
             </IonButton>
-            <IonButton fill="clear">
+            <IonButton
+              href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+              target="blank"
+              fill="clear"
+            >
               <IonIcon className="skill" icon={logoJavascript} />
             </IonButton>
-            <IonButton fill="clear">
+            <IonButton href="https://angular.io/" target="blank" fill="clear">
               <IonIcon className="skill" icon={logoAngular} />
             </IonButton>
-            <IonButton fill="clear">
+            <IonButton href="https://react.dev/" target="blank" fill="clear">
               <IonIcon className="skill" icon={logoReact} />
             </IonButton>
-            <IonButton fill="clear">
+            <IonButton
+              href="https://capacitorjs.com/"
+              target="blank"
+              fill="clear"
+            >
               <IonIcon className="skill" icon={logoCapacitor} />
             </IonButton>
           </div>
@@ -76,31 +100,59 @@ const Resume = () => {
             applications
           </IonCardSubtitle>
           <div className="skills">
-            <IonButton fill="clear">
+            <IonButton href="https://nodejs.org/en" target="blank" fill="clear">
               <IonIcon className="skill" icon={logoNodejs} />
             </IonButton>
-            <IonButton fill="clear">
+            <IonButton
+              href="https://firebase.google.com/"
+              target="blank"
+              fill="clear"
+            >
               <IonIcon className="skill" icon={logoFirebase} />
             </IonButton>
-            <IonButton fill="clear">
+            <IonButton
+              href="https://www.npmjs.com/"
+              target="blank"
+              fill="clear"
+            >
               <IonIcon className="skill" icon={logoNpm} />
             </IonButton>
-            <IonButton fill="clear">
+            <IonButton
+              href="https://expressjs.com/"
+              target="blank"
+              fill="clear"
+            >
               <IonIcon className="skill" icon={express} />
             </IonButton>
-            <IonButton fill="clear">
+            <IonButton
+              href="https://www.mongodb.com/"
+              target="blank"
+              fill="clear"
+            >
               <IonIcon className="skill" icon={mongodb} />
             </IonButton>
-            <IonButton fill="clear">
+            <IonButton
+              href="https://www.postgresql.org/"
+              target="blank"
+              fill="clear"
+            >
               <IonIcon className="skill" icon={postgresql} />
             </IonButton>
-            <IonButton fill="clear">
+            <IonButton
+              href="https://mongoosejs.com/"
+              target="blank"
+              fill="clear"
+            >
               <IonIcon className="skill" icon={mongoosejs} />
             </IonButton>
-            <IonButton fill="clear">
+            <IonButton
+              href="https://www.typescriptlang.org/"
+              target="blank"
+              fill="clear"
+            >
               <IonIcon className="skill" icon={typescript} />
             </IonButton>
-            <IonButton fill="clear">
+            <IonButton href="https://vitejs.dev/" target="blank" fill="clear">
               <IonIcon className="skill" icon={vite} />
             </IonButton>
           </div>
