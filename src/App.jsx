@@ -29,7 +29,9 @@ function App() {
           <IonCardContent color="light">
             <IonGrid>
               <IonRow>
-                <Social />
+                <div className="side-bar">
+                  <Social />
+                </div>
                 <IonCol className="main" color="light">
                   <Project id="about-me">
                     <About />
