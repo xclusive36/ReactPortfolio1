@@ -18,7 +18,7 @@ import Portfolio from "./components/Portfolio/Portfolio.component";
 import Contact from "./components/Contact/Contact.component";
 import Resume from "./components/Resume/Resume.component";
 
-import "./App.css"; // import App.css stylesheet
+import "./assets/App.css"; // import App.css stylesheet
 
 function App() {
   return (
